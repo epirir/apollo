@@ -1,0 +1,12 @@
+{
+    "menu": [
+        {
+            "url": "/",
+            "name": "Dashboard",
+            "slug": "dashboard",
+            "badge": "",
+            "badgeClass": "badge badge-warning badge-pill float-right",
+            "icon": "feather icon-home"
+        }
+    ]
+}
