@@ -35,6 +35,9 @@ Route::middleware([
         Route::get('dashboard', 'DashboardController@dashboard')
         ->name('dashboard');
 
+        /**Sales */
+        Route::namespace('Sales')->name('sales.')->prefix('sales')->group(base_path('routes/tenant/sales.php'));
+
         Route::get('lang/{locale}', [LanguageController::class, 'swap']);
     });
 });

@@ -1,5 +1,5 @@
 {
-  "Dashboard": "Dashboard",
+  "Dashboard": "Tablero",
   "Analytics": "Analytics",
   "eCommerce": "eCommerce",
   "Apps": "Apps",
@@ -127,5 +127,6 @@
   "Media Player": "Media Player",
   "agGrid Table": "agGrid Table",
   "User Settings": "User Settings",
-  "Available" : "Disponible"
+  "Available": "Disponible",
+  "Restaurant": "Restaurante"
 }

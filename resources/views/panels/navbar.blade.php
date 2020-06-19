@@ -53,7 +53,7 @@
                 <a class="dropdown-item" href="{{url('lang/en')}}" data-language="en">
                   <i class="flag-icon flag-icon-us"></i> English
                 </a>
-                <a class="dropdown-item" href="{{url('lang/fr')}}" data-language="fr">
+                {{-- <a class="dropdown-item" href="{{url('lang/fr')}}" data-language="fr">
                   <i class="flag-icon flag-icon-fr"></i> French
                 </a>
                 <a class="dropdown-item" href="{{url('lang/de')}}" data-language="de">
@@ -61,7 +61,7 @@
                 </a>
                 <a class="dropdown-item" href="{{url('lang/pt')}}" data-language="pt">
                   <i class="flag-icon flag-icon-pt"></i> Portuguese
-                </a>
+                </a> --}}
               </div>
             </li>
             <li class="nav-item d-none d-lg-block"><a class="nav-link nav-link-expand"><i

@@ -27,7 +27,8 @@ $configData = Helper::applClasses();
       @foreach($menuData[0]->menu as $menu)
       @if(isset($menu->navheader))
       <li class="navigation-header">
-        <span>{{ $menu->navheader }}</span>
+        {{-- <span data-i18n>{{ $menu->navheader }}</span> --}}
+        <span data-i18n="{{ $translation }}">{{ __('locale.'.$menu->navheader) }}</span>
       </li>
       @else
       {{-- Add Custom Class with nav-item --}}

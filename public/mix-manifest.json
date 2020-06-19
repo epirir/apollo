@@ -1,6 +1,6 @@
 {
-    "/js/core/app.js": "/js/core/app.js?id=79d84511653242a3c051",
-    "/js/core/app-menu.js": "/js/core/app-menu.js?id=8d83922481918de42e66",
+    "/js/core/app.js": "/js/core/app.js?id=67c5b2d370da8fe8d78c",
+    "/js/core/app-menu.js": "/js/core/app-menu.js?id=dcb52a64f7517eef756c",
     "/css/plugins/forms/extended/typeahed.css": "/css/plugins/forms/extended/typeahed.css?id=8f1500e4cc82905f1204",
     "/css/plugins/forms/form-inputs-groups.css": "/css/plugins/forms/form-inputs-groups.css?id=828e312c44ad5d05d0de",
     "/css/plugins/forms/validation/form-validation.css": "/css/plugins/forms/validation/form-validation.css?id=3b80a9026be07bfa9795",
@@ -27,6 +27,7 @@
     "/css/components.css": "/css/components.css?id=36dfe1f934b572dae1ab",
     "/css/custom-rtl.css": "/css/custom-rtl.css?id=a77bc6b78fbf85c90e5a",
     "/css/custom-laravel.css": "/css/custom-laravel.css?id=94113c1793155380380c",
+    "/css/app.css": "/css/app.css?id=2ee57b11b664482c173d",
     "/js/scripts/components.js": "/js/scripts/components.js?id=2ab188ae0fa7b622cdb1",
     "/js/scripts/footer.js": "/js/scripts/footer.js?id=b382ec364916c35eff84",
     "/js/scripts/forms/basic-inputs.js": "/js/scripts/forms/basic-inputs.js?id=f5807b49b347df9b6d2d",
@@ -69,5 +70,12 @@
     "/vendors/css/perfect-scrollbar/perfect-scrollbar.min.css": "/vendors/css/perfect-scrollbar/perfect-scrollbar.min.css?id=14dcf6162f6e16678f6b",
     "/vendors/css/ui/prism-treeview.css": "/vendors/css/ui/prism-treeview.css?id=d4a772304237b8605637",
     "/vendors/css/ui/prism.min.css": "/vendors/css/ui/prism.min.css?id=2b6ec658f3078cb5a481",
-    "/vendors/css/vendors.min.css": "/vendors/css/vendors.min.css?id=188a0bbf498c6a3c494c"
+    "/vendors/css/vendors.min.css": "/vendors/css/vendors.min.css?id=188a0bbf498c6a3c494c",
+    "/css/packages/devextreme/dx.theme.css": "/css/packages/devextreme/dx.theme.css?id=e86595dd0c120c35fc58",
+    "/js/packages/devextreme/dx.all.js": "/js/packages/devextreme/dx.all.js?id=1be21bbd73c603cd68d5",
+    "/js/packages/devextreme/dx.aspnet.data.js": "/js/packages/devextreme/dx.aspnet.data.js?id=df7bddea9140829386ef",
+    "/js/packages/devextreme/cldr.bundle.js": "/js/packages/devextreme/cldr.bundle.js?id=807aa87042f1ff6e6c2c",
+    "/js/packages/devextreme/globalize.bundle.js": "/js/packages/devextreme/globalize.bundle.js?id=66ca213a3401af3bb5d8",
+    "/js/packages/devextreme/gt.bundle.js": "/js/packages/devextreme/gt.bundle.js?id=ae5fb9518fe2eb8d5a26",
+    "/js/packages/devextreme/dx.messages.js": "/js/packages/devextreme/dx.messages.js?id=9d3f42790419420478de"
 }

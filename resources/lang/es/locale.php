@@ -9,5 +9,8 @@ return [
     'Fixed Layout' => 'Fixed Layout',
     'Raise Support' => 'Raise Support',
     'Documentation' => 'Documentation',
-    'Available' => 'Disponible'
+    'Available' => 'Disponible',
+    'Restaurant' => 'Restaurante',
+    'Menu' => 'Menú',
+    'Sales' => 'Ventas'
 ];

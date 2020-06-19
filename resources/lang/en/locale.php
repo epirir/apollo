@@ -8,5 +8,9 @@ return [
     'Floating Navbar' => 'Floating Navbar',
     'Fixed Layout' => 'Fixed Layout',
     'Raise Support' => 'Raise Support',
-    'Documentation' => 'Documentation'
+    'Documentation' => 'Documentation',
+    'Restaurant' => 'Restaurant',
+    'Menu' => 'Menu',
+    'Email' => 'Email',
+    'Sales' => 'Sales'
 ];

@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="{{ global_asset(mix('css/components.css')) }}">
         <link rel="stylesheet" href="{{ global_asset(mix('css/themes/dark-layout.css')) }}">
         <link rel="stylesheet" href="{{ global_asset(mix('css/themes/semi-dark-layout.css')) }}">
+        <link rel="stylesheet" href="{{ global_asset(mix('css/app.css')) }}">
 {{-- {!! Helper::applClasses() !!} --}}
 @php
 $configData = Helper::applClasses();

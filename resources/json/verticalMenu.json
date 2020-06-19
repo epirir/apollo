@@ -1,12 +1,24 @@
 {
-    "menu": [
-        {
-            "url": "/",
-            "name": "Dashboard",
-            "slug": "dashboard",
-            "badge": "",
-            "badgeClass": "badge badge-warning badge-pill float-right",
-            "icon": "feather icon-home"
-        }
-    ]
+  "menu": [
+    {
+      "url": "/",
+      "name": "Dashboard",
+      "slug": "dashboard",
+      "badge": "",
+      "badgeClass": "badge badge-warning badge-pill float-right",
+      "icon": "fad fa-tachometer-alt-fast"
+    },
+    {
+      "url": "",
+      "navheader": "Sales",
+      "slug": "Sales",
+      "icon": ""
+    },
+    {
+      "url": "sales/menu",
+      "name": "Menu",
+      "icon": "fad fa-folder-open",
+      "i18n": "nav.menu"
+    }
+  ]
 }
