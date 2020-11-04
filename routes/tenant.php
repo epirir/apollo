@@ -38,6 +38,9 @@ Route::middleware([
         /**Sales */
         Route::namespace('Sales')->name('sales.')->prefix('sales')->group(base_path('routes/tenant/sales.php'));
 
+        /**Inventory */
+        Route::namespace('Inventory')->name('inventory.')->prefix('inventory')->group(base_path('routes/tenant/inventory.php'));
+
         Route::get('lang/{locale}', [LanguageController::class, 'swap']);
     });
 });

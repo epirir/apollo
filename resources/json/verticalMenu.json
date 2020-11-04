@@ -1,6 +1,7 @@
 {
   "menu": [
     {
+      "active": "/*",
       "url": "/",
       "name": "Dashboard",
       "slug": "dashboard",
@@ -9,16 +10,46 @@
       "icon": "fad fa-tachometer-alt-fast"
     },
     {
+      "active": "",
       "url": "",
-      "navheader": "Sales",
-      "slug": "Sales",
+      "navheader": "Applications",
       "icon": ""
     },
     {
-      "url": "sales/menu",
-      "name": "Menu",
-      "icon": "fad fa-folder-open",
-      "i18n": "nav.menu"
+      "active": "",
+      "url": "",
+      "name": "Inventory",
+      "icon": "fad fa-warehouse-alt",
+      "submenu": [
+        {
+          "active": "",
+          "url": "",
+          "name": "Products",
+          "icon": "fad fa-circle",
+          "i18n": "nav.app_products_products"
+        },
+        {
+          "active": "",
+          "url": "",
+          "name": "Units",
+          "icon": "fad fa-circle",
+          "i18n": "nav.app_products_units"
+        },
+        {
+          "active": "",
+          "url": "",
+          "name": "Classifications",
+          "icon": "fad fa-circle",
+          "i18n": "nav.app_products_classifications"
+        },
+        {
+          "active": "",
+          "url": "inventory/brands",
+          "name": "Brands",
+          "icon": "fad fa-circle",
+          "i18n": "nav.app_products_brands"
+        }
+      ]
     }
   ]
 }

@@ -28,7 +28,6 @@ class TenancyServiceProvider extends ServiceProvider
 
                     // Your own jobs to prepare the tenant.
                     // Provision API keys, create S3 buckets, anything you want!
-
                 ])->send(function (Events\TenantCreated $event) {
                     return $event->tenant;
                 })->shouldBeQueued(false), // `false` by default, but you probably want to make this `true` for production.
@@ -86,14 +85,12 @@ class TenancyServiceProvider extends ServiceProvider
 
             // Fired only when a synced resource is changed in a different DB than the origin DB (to avoid infinite loops)
             Events\SyncedResourceChangedInForeignDatabase::class => [
-
             ],
         ];
     }
 
     public function register()
     {
-        //
     }
 
     public function boot()

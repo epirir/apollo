@@ -19,11 +19,11 @@
               <li class="nav-item mobile-menu d-xl-none mr-auto"><a class="nav-link nav-menu-main menu-toggle hidden-xs"
                   href="#"><i class="ficon feather icon-menu"></i></a></li>
             </ul>
-            <ul class="nav navbar-nav bookmark-icons">
+            {{-- <ul class="nav navbar-nav bookmark-icons">
               <li class="nav-item d-none d-lg-block"><a class="nav-link" href="sk-layout-2-columns"
                   data-toggle="tooltip" data-placement="top" title="2-Columns"><i
                     class="ficon feather icon-sidebar"></i></a></li>
-            </ul>
+            </ul> --}}
             <ul class="nav navbar-nav">
               <li class="nav-item d-none d-lg-block"><a class="nav-link bookmark-star"><i
                     class="ficon feather icon-star warning"></i></a>

@@ -12,5 +12,13 @@ return [
     'Available' => 'Disponible',
     'Restaurant' => 'Restaurante',
     'Menu' => 'Menú',
-    'Sales' => 'Ventas'
+    'Sales' => 'Ventas',
+    'Inventory' => 'Inventario',
+    'Stocks' => 'Existencias',
+    'Applications' => 'Aplicaciones',
+    'Products' => 'Productos',
+    'List' => 'Listado',
+    'Units' => 'Unidades',
+    'Classifications' => 'Clasificaciones',
+    'Brands' => 'Marcas',
 ];

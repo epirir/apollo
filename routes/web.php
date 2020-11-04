@@ -15,7 +15,7 @@
 //     Auth::routes();
 // });
 
-// Auth::routes();
+Auth::routes();
 
 // Route::get('login', 'Auth\LoginController@showLoginForm')->middleware(['web', InitializeTenancyByDomain::class, ]);
 

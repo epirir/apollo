@@ -12,5 +12,13 @@ return [
     'Restaurant' => 'Restaurant',
     'Menu' => 'Menu',
     'Email' => 'Email',
-    'Sales' => 'Sales'
+    'Sales' => 'Sales',
+    'Inventory' => 'Inventory',
+    'Stocks' => 'Stocks',
+    'Applications' => 'Applications',
+    'Products' => 'Products',
+    'List' => 'List',
+    'Units' => 'Units',
+    'Classifications' => 'Classifications',
+    'Brands' => 'Brands',
 ];

@@ -2,28 +2,28 @@
 
 namespace App\Providers;
 
-use Illuminate\Support\ServiceProvider;
+use Illuminate\Support\Facades\Event;
 use Illuminate\Support\Facades\Schema;
+use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
 {
     /**
      * Register any application services.
-     *
-     * @return void
      */
     public function register()
     {
-        //
     }
 
     /**
      * Bootstrap any application services.
-     *
-     * @return void
      */
     public function boot()
     {
         Schema::defaultStringLength(191);
+
+        Event::listen(TenancyBootstrapped::class, function (TenancyBootstrapped $event) {
+            \Spatie\Permission\PermissionRegistrar::$cacheKey = 'spatie.permission.cache.tenant.'.$event->tenancy->tenant->id;
+        });
     }
 }
